@@ -1,6 +1,6 @@
 var sf = new Snowflakes({
-    color: "#ffd700",
-    minSize: 20
+    color: "#ffb3d9",
+    minSize: 18
 });
 var url_string = window.location.href; //window.location.href
 var url = new URL(url_string);
@@ -87,10 +87,10 @@ document.addEventListener("DOMContentLoaded", function () {
         DEG_TO_RAD = PI / 180,
         RAD_TO_DEG = 180 / PI,
         colors = [
-            ["#df0049", "#660671"],
-            ["#00e857", "#005291"],
-            ["#2bebbc", "#05798a"],
-            ["#ffd200", "#b06c00"]
+            ["#ffb3d9", "#ff7fbf"],
+            ["#ffd6e8", "#ffb3d9"],
+            ["#ff9ad1", "#ff6fb3"],
+            ["#ffe6f2", "#ffcce6"]
         ];
 
     function Vector2(_x, _y) {
